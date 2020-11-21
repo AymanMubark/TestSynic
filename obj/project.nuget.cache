@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "l766iEtAK8Qp5VJpOnINP6QnscZ+z5wDcwEpZGxAdsKWqN6wkyit+wbBIuVHSWDw2KqO89yi93CGs/56ELG5Yg==",
+  "success": true,
+  "projectFilePath": "/Users/ayman/code/TestSynic/TestSynic.csproj",
+  "expectedPackageFiles": [
+    "/Users/ayman/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/ayman/.nuget/packages/syncfusion.ej2.aspnet.core/18.3.0.50/syncfusion.ej2.aspnet.core.18.3.0.50.nupkg.sha512",
+    "/Users/ayman/.nuget/packages/syncfusion.licensing/18.3.0.50/syncfusion.licensing.18.3.0.50.nupkg.sha512"
+  ],
+  "logs": []
+}

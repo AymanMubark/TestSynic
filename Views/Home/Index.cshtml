@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+   String baseUrl="https://localhost:5001";
+}
+
+<ejs-grid id="Grid" toolbar="@(new List<string>() { "Add","Delete","Update", "Cancel" })">
+    <e-data-manager url="@baseUrl/Employees" adaptor="ODataAdaptor" crossdomain="true"  InsertUrl="@baseUrl/Employees/Insert" UpdateUrl="@baseUrl/Employees/update" RemoveUrl="@baseUrl/Employees/Delete"></e-data-manager>
+      <e-grid-editSettings allowDeleting="true" allowEditing="true" allowAdding="true"></e-grid-editSettings>
+    <e-grid-columns>
+        <e-grid-column field="id" headerText="ID" type="number" isPrimaryKey="true" textAlign="Right" width="120"></e-grid-column>
+        <e-grid-column field="name" headerText="Name" type="strng" width="140"></e-grid-column>
+    </e-grid-columns>
+</ejs-grid>
+
+
+
